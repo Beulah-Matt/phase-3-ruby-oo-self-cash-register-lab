@@ -19,11 +19,8 @@
 
 #     def apply_discount
 #         if self.discount > 0
-#           percentage_discount = (100.0 - self.discount.to_f) / 100
-#           self.total = (self.total * percentage_discount).to_i
-#           "After the discount, the total comes to $#{self.total}."
-#         else
-#           "There is no discount to apply."
+            #self.total = (self.total - (self.total *(100 - self.discount)/100)
+            #"There is no discount to apply."
 #         end
 #       end
 
