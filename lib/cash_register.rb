@@ -16,7 +16,7 @@ class CashRegister
         self.total_prices << price * quantity
     end
 
-    def apply_discount()j
+    def apply_discount()
         self.total = (self.total * (1 - (self.discount/100.00))).to_i
 
         if discount == 0
